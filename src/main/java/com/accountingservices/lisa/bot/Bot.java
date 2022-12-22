@@ -28,7 +28,7 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "5765319715:AAFfXyMYEhgU3LcA_pNTvFwEDbwsRYvErWc";
+        return "5765319715:AAFfXyMYEhgU3LcA_pNTvFwEDbwsRYvErWc"; //был system.getenv но не смог на elastic beanstalk передать environment variable(((
     }
 
     @Override
